@@ -74,8 +74,8 @@ console.log(studentObj);
 console.log(studentObj.college);
 var abc = JSON.stringify(studentObj)
 console.log(abc);
-var parseObj = JSON.parse(abc)
-console.log("Parsed Object",parseObj);
+var parsedObj = JSON.parse(abc)
+console.log("Parsed Object",parsedObj);
 
 
 
