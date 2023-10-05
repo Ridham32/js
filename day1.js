@@ -30,9 +30,30 @@
 // show()
 
 // date and time fns 
-var date = new Date
-    console.log(date)
-   console.log(date.getTime())
+// var date = new Date
+//     console.log(date)
+//    console.log(date.getTime())
     
+// timestamp
+var t = Date.now()
+console.log(t);
+
+// setTimeout,setInterval
+
+setTimeout(()=>{
+    console.log("I am Set Timeout");
+}, 4000)
+
+setInterval(()=>{
+    console.log("I am Set Interval");
+},4000)
+
+var marks = [23,24,25,26,27,28]
+marks.push(11,12,13)
+console.log(marks);
+
+
+
+
 
 

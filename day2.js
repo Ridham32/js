@@ -54,28 +54,28 @@ var arr = [1,2,3,4,5,6,7,8,9,10]
 //     console.log(element);
 // })
 
-var studentDetail = [1,["Name","Ridham"],"Advance Js","Node Js","Daviet","Android + Nodejs"]
-//console.log(studentDetail);
-var studentObj = {
-    //key value ,
-    roll : 1,
-    name:"Ridham",
-    currentCourse: "Advance Js",
-    upcoming:"Node Js",
-    college: "Daviet",
-    "company course": "Android + Nodejs",
-    marks:[34,45,56,22,55]
-}
-//to add in the obj 
-studentObj.bloodGrp = "B+"
-delete studentObj.currentCourse
+// var studentDetail = [1,["Name","Ridham"],"Advance Js","Node Js","Daviet","Android + Nodejs"]
+// //console.log(studentDetail);
+// var studentObj = {
+//     //key value ,
+//     roll : 1,
+//     name:"Ridham",
+//     currentCourse: "Advance Js",
+//     upcoming:"Node Js",
+//     college: "Daviet",
+//     "company course": "Android + Nodejs",
+//     marks:[34,45,56,22,55]
+// }
+// //to add in the obj 
+// studentObj.bloodGrp = "B+"
+// delete studentObj.currentCourse
 
-console.log(studentObj);
-console.log(studentObj.college);
-var abc = JSON.stringify(studentObj)
-console.log(abc);
-var parsedObj = JSON.parse(abc)
-console.log("Parsed Object",parsedObj);
+// console.log(studentObj);
+// console.log(studentObj.college);
+// var abc = JSON.stringify(studentObj)
+// console.log(abc);
+// var parsedObj = JSON.parse(abc)
+// console.log("Parsed Object",parsedObj);
 
 
 
